@@ -1,0 +1,15 @@
+{
+  "exp_name":"ResNet34_1d",
+  "type": "Runner1D",
+  "device": "cpu",
+  "model": "ResNet34_1d",
+  "model_path": "./experiments/ResNet34_1d/checkpoints/00000003.pth",
+  "dataset_type": "1D",
+  "json": "data/val.json",
+  "mapping_json": "data/class-mapper.json",
+  "num_classes": 8,
+
+  "batch_size": 128,
+  "num_workers": 3,
+  "exp_dir" : "experiments/"
+}
